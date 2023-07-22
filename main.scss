@@ -54,8 +54,48 @@ body {
 			outline: none;
 		}
 	}
-    span{
-        font-weight: bold; 
-        color:#81c3d7;
-    }
+	span {
+		font-weight: bold;
+		color: #81c3d7;
+	}
 }
+@media (max-width: 768px) {
+	body {
+		font-size: 8px;
+	}
+	.card {
+		height: 400px;
+		width: 55%;
+		.input-box {
+			max-width: 200px;
+			margin: 15px;
+			height: 55px;
+			input {
+				font-size: 10px;
+			}
+		}
+		.passinfo {
+			font-size: 8px;
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	body {
+		font-size: 12px;
+	}
+	.card {
+		height: 500px;
+
+		.input-box {
+			max-width: 300px;
+			margin: 15px;
+			input {
+				font-size: 16px;
+			}
+		}
+		.passinfo {
+			font-size: 12px;
+		}
+	}
+}
+

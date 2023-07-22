@@ -57,4 +57,43 @@ body {
 .card span {
   font-weight: bold;
   color: #81c3d7;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 8px;
+  }
+  .card {
+    height: 400px;
+    width: 55%;
+  }
+  .card .input-box {
+    max-width: 200px;
+    margin: 15px;
+    height: 55px;
+  }
+  .card .input-box input {
+    font-size: 10px;
+  }
+  .card .passinfo {
+    font-size: 8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 12px;
+  }
+  .card {
+    height: 500px;
+  }
+  .card .input-box {
+    max-width: 300px;
+    margin: 15px;
+  }
+  .card .input-box input {
+    font-size: 16px;
+  }
+  .card .passinfo {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=main.css.map */
