@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #d9dcd6;
+  background-color: #d9dcd6;
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 700px;
+  background-color: #16425b;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+.card h1 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.card .passinfo {
+  font-size: 18px;
+  color: #caf0f8;
+}
+.card .input-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  max-width: 450px;
+  height: 75px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 30px;
+}
+.card .input-box img {
+  width: 25px;
+  cursor: pointer;
+}
+.card .input-box input {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.card span {
+  font-weight: bold;
+  color: #81c3d7;
+}/*# sourceMappingURL=main.css.map */
