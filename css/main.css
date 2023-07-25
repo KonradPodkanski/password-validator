@@ -12,7 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #d9dcd6;
   background-color: #d9dcd6;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .card {
@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 40%;
+  max-width: 525px;
   height: 700px;
   background-color: #16425b;
   border-radius: 25px;
@@ -29,6 +29,10 @@ body {
 .card h1 {
   margin-bottom: 60px;
   text-align: center;
+}
+.card h4 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 .card .passinfo {
   font-size: 18px;
@@ -64,8 +68,8 @@ body {
     font-size: 8px;
   }
   .card {
-    height: 400px;
-    width: 55%;
+    height: 350px;
+    max-width: 262.5px;
   }
   .card .input-box {
     max-width: 200px;
@@ -84,7 +88,8 @@ body {
     font-size: 12px;
   }
   .card {
-    height: 510px;
+    height: 500px;
+    max-width: 375px;
   }
   .card .input-box {
     max-width: 300px;
