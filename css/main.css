@@ -25,10 +25,11 @@ body {
   height: 700px;
   background-color: #16425b;
   border-radius: 25px;
-  padding: 0 30px;
+  padding: 0px 30px;
 }
 .card h1 {
-  margin-bottom: 60px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
   text-align: center;
 }
 .card h4 {
@@ -74,11 +75,14 @@ body {
   }
   .card .input-box {
     max-width: 200px;
-    margin: 15px;
+    margin-bottom: 15px;
     height: 55px;
   }
   .card .input-box input {
     font-size: 10px;
+  }
+  .card h1 {
+    margin-bottom: 30px;
   }
   .card .passinfo {
     font-size: 8px;
@@ -94,7 +98,7 @@ body {
   }
   .card .input-box {
     max-width: 300px;
-    margin: 15px;
+    margin: 10px;
   }
   .card .input-box input {
     font-size: 16px;
